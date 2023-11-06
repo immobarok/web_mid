@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 80px 60px;
+}
+.nav_link {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+.nav_link ul,
+li,
+a {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(252, 63, 63);
+  border-radius: 5px;
+}
+.nav_link a {
+  padding: 5px 13px;
+  width: 140px;
+  border: 1px solid #b8b8b8;
+}
+.color_1 {
+  background: #40a9ff;
+  color: whitesmoke;
+}
+.social_link {
+  margin-left: 90px;
+  margin-top: 5px;
+  height: 40px;
+  min-width: 200px;
+}
+.nav_link .social_link i {
+  padding: 5px 16px;
+  font-size: 1.5rem;
+  color: #b8b8b8;
+}
+.checkbox_nav {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.checkbox_nav .checked {
+  min-width: 600px;
+  background: #e7e5e5;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+}
+.content,
+.developer,
+.designer {
+  border: 1px solid rgb(179, 178, 178);
+  height: 40px;
+  padding: 0px 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+input,
+label {
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+.search_bar {
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  position: relative;
+}
+.search_bar i {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  color: #b8b8b8;
+}
+.search_bar input {
+  height: 40px;
+  padding: 8px 0px;
+  background: #daeef7;
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 260px;
+}
+.search_bar ::placeholder {
+  padding-left: 30px;
+}
+.card_group,
+.card {
+  display: flex;
+  width: 100%;
+}
+.card .card_image img {
+  min-height: 118px;
+  max-width: 100px;
+  padding-top: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.card_desc {
+  margin-left: 14px;
+}
+.card {
+  height: 120px;
+  width: 50%;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.input_feild {
+  text-align: center;
+}
+.input_feild input {
+  padding: 8px 40px;
+}
+.message {
+  width: 500px;
+  height: 100px;
+}
+button {
+  color: #ffffff;
+  background: #40a9ff;
+  border-radius: 8px;
+  padding: 8px 39px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
